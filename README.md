@@ -1,33 +1,41 @@
-# Computer Networks Quiz One
+<div dir="rtl">
 
-An interactive practice site for CS330 Computer Networks, Quiz 1 (Chapter 1 *Introduction* and Chapter 2 *Application Layer*).
+# اختبار شبكات الحاسب الأول
 
-It contains 89 questions taken from past Quiz 1 papers. The site shows one question at a time, and each one comes with:
+موقع تفاعلي للتدرّب على الاختبار القصير الأول (Quiz 1) في مقرر **CS330 شبكات الحاسب**، ويغطي الفصل الأول (*مقدمة*) والفصل الثاني (*طبقة التطبيقات*).
 
-- the answer
-- an explanation
-- where the answer comes from (the Chapter 1 or 2 slide number, or the matching Tutorial 1 problem)
+يحتوي الموقع على 89 سؤالًا مأخوذة من اختبارات Quiz 1 السابقة. يعرض الموقع سؤالًا واحدًا في كل مرة، ومع كل سؤال:
 
-A few questions from later chapters (TCP congestion control, IP addressing, NAT) are included and labelled as outside the Chapter 1–2 slides.
+- الإجابة الصحيحة
+- شرح للإجابة
+- مصدر الإجابة (رقم الشريحة في عروض الفصل الأول أو الثاني، أو رقم المسألة المقابلة في التمرين الأول Tutorial 1)
 
-## Use it
+توجد أيضًا بعض الأسئلة من فصول لاحقة (التحكم في الازدحام في TCP، وعنونة IP، وNAT)، وهي مُعلَّمة بأنها خارج شرائح الفصلين الأول والثاني.
 
-Open `index.html` in any browser. It is a single self-contained file, so no server or internet connection is needed (fonts load from Google Fonts when online).
+## طريقة الاستخدام
 
-To host it, enable GitHub Pages for this repository (Settings → Pages → deploy from the `main` branch, root folder).
+افتح الملف `index.html` في أي متصفح. الموقع ملف واحد مستقل، فلا يحتاج إلى خادم ولا إلى اتصال بالإنترنت (تُحمَّل الخطوط من Google Fonts عند توفر الاتصال).
 
-## Edit it
+لنشره على الإنترنت، فعّل GitHub Pages لهذا المستودع (Settings ← Pages ← النشر من الفرع `main` والمجلد الرئيسي root).
 
-- Questions, answers, explanations and sources: `src/data.js`
-- Layout, styles and behaviour: `src/template.html`
-- Figures cropped from the exam scans: `src/fig/`
+## طريقة التعديل
 
-After editing, rebuild `index.html`:
+- الأسئلة والإجابات والشروحات والمصادر: `src/data.js`
+- التصميم والتنسيق وطريقة العمل: `src/template.html`
+- الرسوم المقتطعة من صور الاختبارات: `src/fig/`
+
+بعد التعديل، أعد بناء الملف `index.html` بهذا الأمر:
+
+</div>
 
 ```bash
 python build.py
 ```
 
-## Credits
+<div dir="rtl">
 
-The explanations cite the lecture slides from *Computer Networking: A Top-Down Approach*, 8th edition, by J.F. Kurose and K.W. Ross (Pearson, 2020).
+## المراجع
+
+تستند الشروحات إلى شرائح المحاضرات المرافقة لكتاب *Computer Networking: A Top-Down Approach*، الطبعة الثامنة، تأليف J.F. Kurose وK.W. Ross (دار Pearson، 2020).
+
+</div>
